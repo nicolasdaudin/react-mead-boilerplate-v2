@@ -1,0 +1,36 @@
+* { 
+  box-sizing: border-box; 
+  // - set the height of a component to the one wanted 
+  // (height specified in css), and removes from that the border and padding
+  // - content-box ==> default behavioe: the size of an element 
+  // of 50 px = height specified in css + padding + border 
+}
+ 
+html {
+  font-size:62.5%;
+}
+
+body {
+  color: $dark-grey; 
+  font-family : Helvetica,Arial,sans-serif;
+  font-size: $m-size;
+  line-height: 1.6;
+}
+
+button {
+  cursor:pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
+
+.expense {
+  border: 1px solid burlywood;
+  padding:10px;
+  margin:5px;
+}
